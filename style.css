@@ -1,0 +1,40 @@
+table td img{
+    max-width: 150px;
+    width: 100%;
+    margin: 0 auto;
+}
+ table {
+    border:0;
+ }
+
+table td .yes{
+    position: relative;
+    color: transparent;
+}
+
+ table td .yes::before{
+    position: relative;
+    margin-right: -.8em;
+    
+    color: #77d33c;
+    content: "\f058";
+    font-family: FontAwesome,sans-serif;
+    font-size: 2em;
+    font-style: normal;
+ }
+
+ table td .no{
+    position: relative;
+    color: transparent;
+}
+
+ table td .no::before{
+    position: relative;
+    margin-right: -.8em;
+    
+    color: #fd3a46;
+    content: "\f05e";
+    font-family: FontAwesome,sans-serif;
+    font-size: 2em;
+    font-style: normal;
+ }
